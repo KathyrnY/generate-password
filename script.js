@@ -10,11 +10,9 @@ function generatePassword() {
   alert('Password must be between 8 and 128 characters.')
   } else if (char > 128) {
   alert('Password must be between 8 and 128 characters.')
-  } else (char != null) 
-    alert('Please enter a number')
-  }
-  
+
   return '';
+  }
 
 // assigned variables
   var lowerCase = 'abcdefghijklmnopqrstuvwxz';
@@ -39,21 +37,31 @@ function generatePassword() {
 
   if (confirm ('Would you like special characters in your password?')) {
     all += special
+  } else {
+    (char !== "") 
+    alert('Please enter a number')
+  }
+
+// For loop to generate random rounded integars 
+  for (var i = 0; i < char; i++) {
+    var random = Math.floor(Math.random() * all.length);
+    genPassword += all[random];
+    }
+  // Runs function 
+  return genPassword;
   }
 
 
 
 
-
 // Write password to the #password input
-function writePassword(genPassword) {
+function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-

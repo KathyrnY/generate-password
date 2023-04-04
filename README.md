@@ -3,7 +3,7 @@
 ## Description
 
 This project showcases added Javascript code to program a generator to produce random characters between 8 to 128 characters. 
-There are associated prompts the user will have to click ok or cancel on depending oh what they desire to be inputted within their random password. If the user enters anything other than a number between 8 and 128 the generate will not run and if the user enters letters it will popluate an alert response to please eneter a number.
+There are associated prompts the user will have to click ok or cancel on depending on what they desire to be inputted within their random password. If the user enters anything other than a number between 8 and 128 the generator will not run and if the user enters letters it will autopopluate an alert response to please enter a number.
 Below is list of criteras for the password--
 
 * Lowercase letters

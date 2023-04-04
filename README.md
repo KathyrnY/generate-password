@@ -20,7 +20,7 @@ Below is list of criteras for the password--
 
 ## Notes
 
-Received asistance from instructor Joshua Bodhe on lines 17, 50, and 63.
+Received assistance from instructor Joshua Bodhe on lines 17, 50, and 63.
 
 ## Resources
 

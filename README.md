@@ -16,4 +16,4 @@ Below is list of criteras for the password--
 
 ## Recording of Usage 
 
-
+[generate-password-recording.webm](https://user-images.githubusercontent.com/127566404/229924976-33cfd1a8-729a-4411-9bcf-537c73019e43.webm)

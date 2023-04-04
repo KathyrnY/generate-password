@@ -13,3 +13,7 @@ Below is list of criteras for the password--
 * Numerics
 
 * Special characters 
+
+## Recording of Usage 
+
+
